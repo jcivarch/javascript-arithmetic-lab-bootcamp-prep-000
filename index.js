@@ -35,3 +35,10 @@ function preserveDecimal(n) {
   return parseFloat('nonsense!', n);
 }
 
+function preserveDecimal(n){
+  return parseFloat(n);
+}
+
+function inc(n){
+  return parseInt(++n);
+}
